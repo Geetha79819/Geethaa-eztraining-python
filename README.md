@@ -1,1 +1,0 @@
-# Geethaa-eztraining-python
