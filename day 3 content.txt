@@ -1,0 +1,11 @@
+crt training
+append()-add an element at the end
+extend()-add all elements of a list to the another
+insert()-insert an item at the defined index
+remove()-removes an item from the list
+pop()-removes and returns an element at the given index
+clear()-removes all itema from the list
+count()-returns the count of the number of items passed as an arguments
+sort()-sort items in a list in ascending order
+reverse()-reverse the order of item in the list
+copy()-returns a shallow copy of the list
