@@ -1,0 +1,90 @@
+import random as r
+x="i love sweets"
+
+print(r.sample(x,2))
+
+#everytime it gives different output#display whole year calendar
+
+import calendar
+
+print("full calendar")
+print(calendar.calendar(2023))
+
+print("particular month")
+print(calendar.month(2022,3))
+
+print("set first day of the week")
+calendar.setfirstweekday(calendar.SATURDAY)
+print(calendar.month(2022,12))
+#prg-display date time
+
+import datetime
+
+a=datetime.datetime.now()
+print(a)
+
+sv=a.strftime("%y") #lower case
+fv=a.strftime("%y") #upper case
+
+print("year short version" ,sv)
+print("year full version",fv)
+def sample():
+    print("great day")
+    print("happy time")
+
+
+sample()
+print("today")
+sample()
+#with argument,with return value
+#static input
+def multi(n1,n2,n3):
+    prod=n1*n2*n3
+    return prod
+
+
+res=multi(3,4,5)
+print(res)
+
+multi(3,4,5)
+def multi1(a,b,c):
+    prod=a*b*c
+    return prod
+
+n1=int(input("enter 1: "))
+n2=int(input("enter 2: "))
+n3=int(input("enter 3: "))
+res1=multi1(n1,n2,n3)
+print(res1)
+
+
+a=[1,2,3,4,5,6]
+
+r.shuffle(a)
+print(a)
+
+a=[1,2,3,4,5,6]
+print(r.choice(a))
+
+b="welcome back"
+print(r.choice(b))
+
+a=r.random()
+print(a)
+#will return random number between 0.0 to 1.0
+#0.0 includes 1.0 excludes
+print(r.randint(20,30))
+
+a=[10,20,30,40,50]
+print(r.choices(a,k=10)) #try with big number
+
+s="hello good morning"
+print(r.choices(s,k=3))
+
+print(r.uniform(5,10))
+#returns any random number
+#between the range includes the
+#range  values
+#float values
+
+
